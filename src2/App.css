@@ -1,0 +1,168 @@
+.container {
+  width: 400px;
+  margin: auto;
+  padding: 40px;
+  margin-top: 100px;
+  background-color: #ffffff;
+  border: 5px solid lightgray
+}
+body{
+   background-color: blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* input, select, textarea, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+ 
+} */
+ input,
+select,
+textarea,
+button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  height: 45px;          /* same row height */
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+button {
+  
+  background: blueviolet;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: bold;
+
+}
+
+button:hover {
+  background: black;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;          /* full width on mobile */
+    padding: 20px;
+    margin-top: 40px;
+    border-width: 3px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    height: 42px;
+    font-size: 14px;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+    padding: 30px;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 480px) {
+  button {
+    font-size: 15px;
+  }
+}
+
+
+
+
+/* 
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+button {
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+.result {
+  margin-top: 25px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.result h2 {
+  margin-bottom: 10px;
+} */
+
+
+
+
+
+
+
